@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.menu-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #584c4cd9;
+  background-image: url(../img/Rectangle.jpg);
+  background-size: 100%;
+  height: 600px;
+}
+
+.head-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  border-bottom: 1px solid #FED233;
+}
+
+.head-menu ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80%;
+  width: 30%;
+}
+
+.head-menu li {
+  display: block;
+}
+
+.head-menu li :hover {
+  color: #FED233;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-style: "Algerian", "Arial Black", "Britannic Bold", sans-serif;
+}
+
+.head-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-style: "Algerian", "Arial Black", "Britannic Bold", sans-serif;
+}
+
+.textwithlogo {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.accost-home {
+  position: relative;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.accost-home h3 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.accost-home p {
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.accost-home hr {
+  border: 1px solid #FED233;
+  width: 20%;
+  position: relative;
+  left: -40%;
+}
+
+.accost-home a {
+  color: #0f0f0f;
+  text-decoration: none;
+  font-family: 'Gotham Pro', sans-serif;
+  border: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  width: 220px;
+  height: 50px;
+  background: #FED233;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.procode {
+  height: 52%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.procode img {
+  margin-top: 45px;
+}
+
+.inside-ourposlug {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block-portfolio-head {
+  width: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block-portfolio-head h2 {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.block-portfolio-head p {
+  width: 45%;
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: black;
+}
+
+.portfolio-foto {
+  padding-top: 40px;
+  width: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio-foto div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  width: 270px;
+  height: 200px;
+  background: #FFFFFF;
+  border: 2px solid #FED233;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+/*# sourceMappingURL=styles.css.map */
